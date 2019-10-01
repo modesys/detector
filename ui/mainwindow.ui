@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1790</width>
+    <height>850</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_12">
+    <item row="0" column="3">
+     <widget class="QGroupBox" name="groupBox_9">
+      <property name="title">
+       <string>Crop B</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_11">
+       <item row="0" column="0">
+        <widget class="QLabel" name="labelCroppedB">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <layout class="QVBoxLayout" name="verticalLayout_9">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_13">
+        <item>
+         <widget class="QGroupBox" name="groupBox_3">
+          <property name="title">
+           <string>Output Operation(s)</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_8">
+           <item row="1" column="0">
+            <widget class="QPushButton" name="loadYMLFile">
+             <property name="text">
+              <string>Load YML file</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QPushButton" name="saveCropsImgsBtn">
+             <property name="text">
+              <string>Save Crops</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QPushButton" name="refreshBtn">
+             <property name="text">
+              <string>Refresh</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_2">
+          <property name="title">
+           <string>XYZ Coord Cam-A</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_6">
+           <item row="0" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_2">
+               <item>
+                <widget class="QLabel" name="label_2">
+                 <property name="text">
+                  <string>X Coord</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_3">
+                 <property name="text">
+                  <string>Y Coord</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_4">
+                 <property name="text">
+                  <string>Z Depth</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout">
+               <item>
+                <widget class="QLineEdit" name="leftCoordX"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="leftCoordY"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="leftCoordDepth"/>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_5">
+          <property name="title">
+           <string>XYZ Previous Cam Coord</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_7">
+           <item row="0" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_7">
+               <item>
+                <widget class="QLabel" name="label_5">
+                 <property name="text">
+                  <string>X Coord</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_6">
+                 <property name="text">
+                  <string>Y Coord</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_7">
+                 <property name="text">
+                  <string>Z Depth</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_6">
+               <item>
+                <widget class="QLineEdit" name="pp_ax"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="pp_ay"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="pp_az"/>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_12">
+        <item>
+         <widget class="QToolButton" name="leftArrowCroppedB">
+          <property name="text">
+           <string>...</string>
+          </property>
+          <property name="icon">
+           <iconset resource="res/res.qrc">
+            <normaloff>:/res/leftArrow.png</normaloff>:/res/leftArrow.png</iconset>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="imageCroppedBBtn">
+          <property name="text">
+           <string>Nav-B</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QToolButton" name="rightArrowCroppedB">
+          <property name="text">
+           <string>...</string>
+          </property>
+          <property name="icon">
+           <iconset resource="res/res.qrc">
+            <normaloff>:/res/rightArrow.png</normaloff>:/res/rightArrow.png</iconset>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEditfolderB"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0" colspan="5">
+     <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="1,90">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_8">
+          <property name="text">
+           <string>Set Time and Date:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDateTimeEdit" name="dateTimeEdit"/>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_6">
+          <property name="title">
+           <string>Directories List:</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QListWidget" name="listWidget"/>
+           </item>
+           <item>
+            <widget class="QListWidget" name="listWidget_2"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QGroupBox" name="groupBox_7">
+            <property name="title">
+             <string>How to set substrate ID:</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_3">
+             <item row="0" column="0">
+              <widget class="QPushButton" name="substrateIDGuideBtn">
+               <property name="text">
+                <string>Substarate ID Guidelines</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QPushButton" name="loadFromCustomPlotA">
+               <property name="text">
+                <string>Upload Image for Left Camera</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QPushButton" name="loadFromCustomPlotB">
+               <property name="text">
+                <string>Upload Image for Right Camera</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTableView" name="recordLeftTableView"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="text">
+             <string>Float Data Database</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="1,90">
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>13</width>
+            <height>14</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_5" stretch="1,90,0,0,0,0">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="0,0,0,0,0,0,0,0,0,0,0">
+            <item>
+             <widget class="QComboBox" name="leftCamMenuComboBox">
+              <item>
+               <property name="text">
+                <string>All Objects</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Selected Object</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>No Objects</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="primarySubComboBoxLeft">
+              <item>
+               <property name="text">
+                <string>Primary Substrate</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Rock</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Boulder</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Cobble</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Pebble</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Sand</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Mud</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="secondarySubComboBoxLeft">
+              <item>
+               <property name="text">
+                <string>Secondary Substrate</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Rock</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Boulder</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Cobble</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Pebble</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Sand</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Mud</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="addNewRecordBtn">
+              <property name="text">
+               <string>Print Sceen Left</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="loadPairA">
+              <property name="text">
+               <string> Load Image Pair A</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="bothPrintScreen">
+              <property name="text">
+               <string>Print Screen Both</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="loadPairB">
+              <property name="text">
+               <string> Load Image Pair B</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="printScreenRight">
+              <property name="text">
+               <string>Print Screen Right</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="rightCamMenuComboBox">
+              <item>
+               <property name="text">
+                <string>All Objects</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Selected Object</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>No Objects</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="primarySubComboBoxRight">
+              <item>
+               <property name="text">
+                <string>Primary Substrate</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Rock</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Boulder</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Cobble</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Pebble</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Sand</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Mud</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="secondarySubComboBoxRight">
+              <item>
+               <property name="text">
+                <string>Secondary Substrate</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Rock</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Boulder</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Cobble</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Pebble</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Sand</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Mud</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="MGraphicsViewBothDrag" name="leftView">
+              <property name="verticalScrollBarPolicy">
+               <enum>Qt::ScrollBarAlwaysOn</enum>
+              </property>
+              <property name="horizontalScrollBarPolicy">
+               <enum>Qt::ScrollBarAlwaysOn</enum>
+              </property>
+              <property name="dragMode">
+               <enum>QGraphicsView::ScrollHandDrag</enum>
+              </property>
+              <property name="rubberBandSelectionMode">
+               <enum>Qt::IntersectsItemShape</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="MGraphicsViewBothDrag" name="rightView">
+              <property name="verticalScrollBarPolicy">
+               <enum>Qt::ScrollBarAlwaysOn</enum>
+              </property>
+              <property name="horizontalScrollBarPolicy">
+               <enum>Qt::ScrollBarAlwaysOn</enum>
+              </property>
+              <property name="dragMode">
+               <enum>QGraphicsView::ScrollHandDrag</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QProgressBar" name="matchProgressBarLeft">
+            <property name="value">
+             <number>24</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="labelYmlCamA">
+            <property name="text">
+             <string>Please upload Yml calibration file....</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="savedCropsLabelA">
+            <property name="text">
+             <string>Current folder of cropped images is: </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QDialogButtonBox" name="buttonBox">
+            <property name="standardButtons">
+             <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="2">
+     <widget class="QGroupBox" name="groupBox_11">
+      <property name="title">
+       <string>Crop A</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_10">
+       <item row="0" column="0">
+        <widget class="QLabel" name="labelCroppedA">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_8">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_14">
+        <item>
+         <widget class="QGroupBox" name="groupBox_10">
+          <property name="title">
+           <string>Pan Controls</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="2" column="0">
+            <widget class="QCheckBox" name="connectCheckBox">
+             <property name="text">
+              <string>Connected</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QCheckBox" name="rightSidePan">
+             <property name="text">
+              <string>Right: Drag</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QCheckBox" name="leftSidePan">
+             <property name="text">
+              <string>Left: Drag</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QCheckBox" name="zoomSelect">
+             <property name="text">
+              <string>Zoom</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_8">
+          <property name="title">
+           <string>Size Set Operation(s)</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="0" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout_9">
+             <item>
+              <widget class="QLabel" name="label_9">
+               <property name="text">
+                <string>SSD</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QToolButton" name="toolButton">
+               <property name="text">
+                <string>...</string>
+               </property>
+               <property name="icon">
+                <iconset resource="res/res.qrc">
+                 <normaloff>:/res/graph3.png</normaloff>:/res/graph3.png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QToolButton" name="cutToolBtn">
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="1" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout_10">
+             <item>
+              <widget class="QLabel" name="label_10">
+               <property name="text">
+                <string>Set Region Size</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="regionSizeSpinBox"/>
+             </item>
+            </layout>
+           </item>
+           <item row="2" column="0">
+            <widget class="QPushButton" name="fitBtn">
+             <property name="text">
+              <string>Fit</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="boxDistCalc">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="title">
+           <string>Distance Calculation</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_4">
+           <item row="1" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout_16">
+             <item>
+              <widget class="QComboBox" name="comboBoxColor"/>
+             </item>
+             <item>
+              <widget class="QComboBox" name="comboBoxSize"/>
+             </item>
+            </layout>
+           </item>
+           <item row="2" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout_18">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_13">
+               <item>
+                <widget class="QLabel" name="label_13">
+                 <property name="text">
+                  <string>Start Click</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_14">
+                 <property name="text">
+                  <string>Search Int</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_12">
+               <item>
+                <widget class="QSpinBox" name="threshSpinBoxLeft"/>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="threshSpinBoxRight">
+                 <property name="maximum">
+                  <number>99999</number>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="title">
+           <string>Search Operation(s):</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_5">
+           <item row="0" column="0">
+            <widget class="QComboBox" name="comboBoxImgA">
+             <item>
+              <property name="text">
+               <string>Select Operation</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Point</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Area</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout_15">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_11">
+               <item>
+                <widget class="QLabel" name="label_11">
+                 <property name="text">
+                  <string>Start Search</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_12">
+                 <property name="text">
+                  <string>End Search</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_10">
+               <item>
+                <widget class="QSpinBox" name="xSearchStart"/>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="xSearchEnd"/>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_11">
+        <item>
+         <widget class="QLineEdit" name="lineEditfolderA"/>
+        </item>
+        <item>
+         <widget class="QToolButton" name="leftArrowCroppedA">
+          <property name="text">
+           <string>...</string>
+          </property>
+          <property name="icon">
+           <iconset resource="res/res.qrc">
+            <normaloff>:/res/leftArrow.png</normaloff>:/res/leftArrow.png</iconset>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="imageCroppedABtn">
+          <property name="text">
+           <string>Nav-A</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QToolButton" name="rightArrowCroppedA">
+          <property name="text">
+           <string>...</string>
+          </property>
+          <property name="icon">
+           <iconset resource="res/res.qrc">
+            <normaloff>:/res/rightArrow.png</normaloff>:/res/rightArrow.png</iconset>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="1">
+     <widget class="QGroupBox" name="groupBox_12">
+      <property name="title">
+       <string>Search Enabler</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_13">
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout_9">
+         <item row="0" column="0">
+          <widget class="QCheckBox" name="checkBoxDetectClick">
+           <property name="text">
+            <string>Manual Search</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QCheckBox" name="checkBoxGridShow">
+           <property name="text">
+            <string>Grid on</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_17">
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>Dist A - B</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="distAB"/>
+           </item>
+          </layout>
+         </item>
+         <item row="3" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_19">
+           <item>
+            <widget class="QToolButton" name="eraseLPointsBtn">
+             <property name="text">
+              <string>Erase L Point(s)</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="eraseLBoxesBtn">
+             <property name="text">
+              <string>Erase L Box(es)</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="4" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_20">
+           <item>
+            <widget class="QToolButton" name="eraseRPointsBtn">
+             <property name="text">
+              <string>Erase R Point(s)</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="eraseRBoxesBtn">
+             <property name="text">
+              <string>Erase R Box(es)</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1790</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOpen">
+    <property name="title">
+     <string>Open</string>
+    </property>
+    <addaction name="actionNew_File"/>
+    <addaction name="actionClose"/>
+   </widget>
+   <widget class="QMenu" name="menuSave">
+    <property name="title">
+     <string>Save</string>
+    </property>
+    <addaction name="actionSave_As"/>
+    <addaction name="Extract_csv_file"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="actionFit"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionHelp"/>
+   </widget>
+   <addaction name="menuOpen"/>
+   <addaction name="menuSave"/>
+   <addaction name="menuView"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionNew_File"/>
+   <addaction name="actionSave_As"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionClose">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/res/close2.png</normaloff>:/res/close2.png</iconset>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionNew_File">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/res/new_file2.png</normaloff>:/res/new_file2.png</iconset>
+   </property>
+   <property name="text">
+    <string>New File</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionSave_As">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/res/openfile.png</normaloff>:/res/openfile.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save As</string>
+   </property>
+   <property name="toolTip">
+    <string>Open</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="Extract_csv_file">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/res/save.png</normaloff>:/res/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>Extract txt file</string>
+   </property>
+   <property name="toolTip">
+    <string>Extract txt file</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="actionFit">
+   <property name="icon">
+    <iconset resource="res/res.qrc">
+     <normaloff>:/res/graph4.png</normaloff>:/res/graph4.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+H</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>MGraphicsViewBothDrag</class>
+   <extends>QGraphicsView</extends>
+   <header>graphicsviewbothdrag.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="res/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
