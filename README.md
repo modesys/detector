@@ -2,7 +2,7 @@
 This is a GUI aimed at detecting and cropping region of interest (ROI) for any kind of application field. The goal of this GUI is to make detection and training of specific blood cells easier for the user/doctor in order to categorize images captured. Those images will then be passed to the database manager system where will be analyzed and stored.
 
 <div>
-<img src="https://user-images.githubusercontent.com/55800613/79785111-527fa080-8311-11ea-9cde-d6098e4b652f.png" height="400">
+<img src="https://user-images.githubusercontent.com/55800613/79785111-527fa080-8311-11ea-9cde-d6098e4b652f.png" height="600">
 </div>
  
 &nbsp 
