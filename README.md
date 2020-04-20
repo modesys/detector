@@ -1,4 +1,4 @@
-# Welcome to the Detector Page
+# Welcome to the Detector System
 This is a GUI aimed at detecting and cropping region of interest (ROI) for any kind of application field. The goal of this GUI is to make detection and training of specific blood cells easier for the user/doctor in order to categorize images captured. Those images will then be passed to the database manager system where will be analyzed and stored.
 
 <div>
@@ -9,9 +9,8 @@ This is a GUI aimed at detecting and cropping region of interest (ROI) for any k
 <img src="https://user-images.githubusercontent.com/55800613/79785126-58758180-8311-11ea-85c7-762804955271.png" height="600">
 </div>
 
-#ABSTRACT - BIOMEDICAL APPLICATION 
-
-This is a free and open source software that can be used for identification and extraction of region of interests (ROI) for any kind of application. However it is specifically designed to be part of a biomedical visualization pipeline for cancer detection and identification. This software will be used for identifying possible carcinogenic formation, categorize them and store them into a database system for quick image recognition
+**ABSTRACT - BIOMEDICAL APPLICATION**
+This software that can be used for identification and extraction of region of interests (ROI) for any kind of application. However it is specifically designed to be part of a biomedical visualization pipeline for cancer detection and identification and will complement the Particle Detection System . This software will be used for identifying possible carcinogenic formation, categorize them and store them into a database system for quick image recognition
 
 <div>
 <img src="https://user-images.githubusercontent.com/55800613/79785137-5ad7db80-8311-11ea-88be-53f757ac1b47.png" height="600">
