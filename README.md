@@ -4,22 +4,19 @@ This is a GUI aimed at detecting and cropping region of interest (ROI) for any k
 <div>
 <img src="https://user-images.githubusercontent.com/55800613/79785111-527fa080-8311-11ea-9cde-d6098e4b652f.png" height="600">
 </div>
- 
-&nbsp 
 
 <div>
-<img src="https://user-images.githubusercontent.com/55800613/79785126-58758180-8311-11ea-85c7-762804955271.png" width="400" height="400">
+<img src="https://user-images.githubusercontent.com/55800613/79785126-58758180-8311-11ea-85c7-762804955271.png" height="600">
 </div>
 
 This is a free and open source software that can be used for identification and extraction of region of interests (ROI) for any kind of application. However it is specifically designed to be part of a biomedical visualization pipeline for cancer detection and identification. This software will be used for identifying possible carcinogenic formation, categorize them and store them into a database system for quick image recognition
 
 <div>
-<img src="https://user-images.githubusercontent.com/55800613/79785137-5ad7db80-8311-11ea-88be-53f757ac1b47.png" width="400" height="400">
+<img src="https://user-images.githubusercontent.com/55800613/79785137-5ad7db80-8311-11ea-88be-53f757ac1b47.png" height="600">
 </div>
 
-&nbsp 
 <div>
-<img src="https://user-images.githubusercontent.com/55800613/79785143-5e6b6280-8311-11ea-9cd7-f61cc7ec1071.png" width="400" height="400">
+<img src="https://user-images.githubusercontent.com/55800613/79785143-5e6b6280-8311-11ea-9cd7-f61cc7ec1071.png" height="600">
 </div>
 
 Features under development:
